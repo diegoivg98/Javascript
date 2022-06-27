@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin: auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    font-size: 60px;
+}
+
+#container {
+    text-align: center;
+}
+
+#cellcontainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: auto;
+    justify-content: center;
+    cursor: pointer;
+    width: 100px;
+}
