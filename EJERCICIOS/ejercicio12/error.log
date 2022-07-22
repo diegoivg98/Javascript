@@ -1,0 +1,2 @@
+{"level":"error","message":"Error: showError function","service":"user-service"}
+{"level":"error","message":"Error: estoy devolviendo un error","service":"user-service"}
