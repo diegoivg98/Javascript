@@ -1,0 +1,10 @@
+const nombre = "Diego"
+const apellido = "Vistoso"
+const estudiante = nombre.concat("").concat(apellido)
+const estudianteMayus = estudiante.toUpperCase()
+const estudianteMinus = estudiante.toLowerCase()
+const numerodeletras = estudiante.length
+const primeraletranombre = nombre.charAt(0) 
+const ultimaletraapellido = apellido.slice(-1)
+const eliminarespacios = estudiante.split(" ").join("")
+const boolean = estudiante.includes(nombre)
