@@ -23,7 +23,7 @@ class Desarrollador extends Persona{
         console.log(`y soy desarrollador de ${this.lenguaje}`);
     }
 }
-const nuevodev  =new Desarrollador("Diego",23,"Javascript");
+const nuevodev = new Desarrollador("Diego",23,"Javascript");
 console.log(nuevodev);
 
 //Polimorfismo => varias formas
