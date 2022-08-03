@@ -37,10 +37,3 @@ function imprimir(...parametros) {
 
 imprimir(1,2,3,4,"hola",{id:9})
 //////////////////////////////
-
-function suma(...nums) {
-   return nums.reduce((a,b) => a + b);
-}
-
-const s = suma(1,2,3,4,9);
-console.log(s);
