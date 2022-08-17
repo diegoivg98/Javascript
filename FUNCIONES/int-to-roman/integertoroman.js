@@ -1,6 +1,6 @@
 function integertoroman(n) {
-    const val = [10,9,5,4,1]
-    const roman = ['X','IX','V','IV','I']
+    const val = [100,90,50,40,10,9,5,4,1]
+    const roman = ['C','XC','L','XL','X','IX','V','IV','I']
     let res = '';
 
     val.forEach((val, i) => {
