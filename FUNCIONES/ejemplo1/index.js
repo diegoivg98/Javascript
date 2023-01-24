@@ -29,11 +29,9 @@ function imprimenumero(numero=7) {//Parametros por defecto
     console.log(numero);
 }
 imprimenumero();
-////////////////////
 
 function imprimir(...parametros) {
     console.log(...parametros);
 }
 
 imprimir(1,2,3,4,"hola",{id:9})
-//////////////////////////////
